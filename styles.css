@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2CB3F3;
+}}
+
+header{
+    background-color: #2CB3F3;
+}
+
+h1{
+    position: relative;
+    top: 10vh;
+    right: -42vw;
+    font-size: 3.5vw;
+}
+
+p{
+    position: relative;
+    top: 10vh;
+    right: -37vw;
+    font-size: 1.6vw;
+}
+
+.corpo{
+    background-color: white;
+    position: relative;
+    height: 50vh;
+    width: 40vw;
+    top: 15vh;
+    right: -30vw;
+    border-radius: 120px 120px 0 0;
+}
+
+.rosto{
+    position: absolute;
+    height: 43vh;
+    width: 34vw;
+    background-color: #FFE1C9;
+    border-radius: 50%;
+    top: 4vh;
+    right: 3vw;
+}
+
+.olhoDireito{
+    background-color: black;
+    height: 6vh;
+    width: 3vw;
+    border-radius: 40px;
+    position: absolute;
+    top: 15vh;
+    right: 10vw
+}
+
+.olhoEsquerdo{
+    background-color: black;
+    height: 6vh;
+    width: 3vw;
+    border-radius: 40px;
+    position: absolute;
+    top: 15vh;
+    right: 27vw;
+}
+
+.login{
+    position: absolute;
+    height: 5vh;
+    width: 13vw;
+    top: 27vh;
+    right: 13.4vw;
+    border: solid;
+    border-radius: 5px;
+}
+
+.senha{
+    position: absolute;
+    height: 5vh;
+    width: 13vw;
+    top: 32vh;
+    right: 13.4vw;
+    border: solid;
+    border-radius: 5px;
+}
+
+button{
+    width: 8vw;
+    height: 5vh;
+    background-color: #55A603;
+    border: #55A603 solid;
+    border-radius: 6px;
+    text-transform: uppercase;
+    color: white;
+    font-size: large;
+    position: relative;
+    top: 17vh;
+    right: -46vw;
+    box-shadow: black -1px -3px 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    color:#B2F272;
+    box-shadow: black 1px 3px 5px;
+}
